@@ -1,0 +1,306 @@
+/** Custom CSS Jquery Mobile **/
+
+		body, button, input{
+			font-family: calibri;
+		}
+		a{
+			text-decoration: none;
+		}
+		#left-panel ul .header{
+			position:relative;
+		}
+		.ui-focus,
+	    .ui-btn:focus {
+	        -moz-box-shadow: none  !important;
+	        -webkit-box-shadow: none  !important;
+	        box-shadow: none  !important;
+	    }
+	    .ui-input-text.ui-focus,
+	    .ui-input-search.ui-focus {
+	        -moz-box-shadow: none !important;
+	        -webkit-box-shadow: none !important;
+	        box-shadow: none !important;	
+	    }
+		#demo-page.ui-page-theme-a,
+		#demo-page .ui-panel-wrapper {
+			background: #fff;
+		}
+		#demo-page .header,
+		#pencarian-properti .header,
+		#pencarian-agent .header,
+		#peringatan-properti .header,
+		#list-berita .header,
+		#list-properti .header,
+		#list-agent .header,
+		#detail-properti .header,
+		#detail-agent .header{
+			background:#008fc0;
+			position:fixed;
+			width:100%;
+			z-index: 100;
+			margin:0px 0px 0px 0px;
+		}
+		#demo-page .header a,
+		#pencarian-properti .header a,
+		#pencarian-agent .header a,
+		#peringatan-properti .header a,
+		#list-berita .header a,
+		#list-properti .header a,
+		#list-agent .header a,
+		#detail-properti .header a,
+		#detail-agent .header a{
+			background:#008fc0;
+			border:none;
+			border-radius: 0;
+		}
+		#demo-page .ui-content,
+		#pencarian-properti .ui-content,
+		#pencarian-agent .ui-content,
+		#peringatan-properti .ui-content,
+		#list-berita .ui-content,
+		#list-properti .ui-content,
+		#list-agent .ui-content,
+		#detail-properti .ui-content,
+		#detail-agent .ui-content {
+			padding-top:60px;
+		}
+		#demo-page, #demo-page .ui-content {
+			background:#fff;
+			height:100%;
+		}
+		#grid a{			
+			text-decoration:none;			
+		}
+		#grid a div{
+			background: #fff;
+			border:none;
+		}
+		#grid a div img:active{
+			opacity:0.7;
+		} 
+		#grid a div p{
+			font-size:12px;
+			font-weight:bold;
+			font-family: calibri;
+			color:#777;
+			margin:-5px 0px 0px 0px;
+			font-weight:bold;
+			text-align: center;
+		} 
+		#left-panel ul li{
+			font-size: 12px;
+		}
+		#left-panel ul li .text-login{
+			font-size: 15px;
+			font-weight:bold;
+			font-family: Arial;
+			color:#3a90ad;
+		}
+		#left-panel ul li .caption-checkbox{
+			font-size: 12px;
+			font-weight:bold;
+			font-family: calibri;
+			color:#777;
+		}
+		#left-panel ul li .a-daftar{
+			font-size: 15px;
+			font-family: calibri;
+			text-shadow: 0px 1px 0px #ccc;
+			color:#3a90ad;			
+			background:#feb029;
+			border:1px solid #ffa200;
+		}
+		#left-panel ul li .a-daftar:active{	
+			background:#fabc45;
+		}
+		#div-listview-properti .premium-mark{
+			position: absolute;
+			font-size:9px;
+			padding:2px 2px;
+			margin:0px 3px 0px 0px;
+			border-radius: 2px;
+			text-shadow:none;
+			color:#fff;
+			background:#ffa200;
+			bottom:10px;
+			left:17px;	
+		}
+		#navbar--cariprop{
+			margin:0px 0px -40px 0px;
+		}
+		#div-listview-properti ul li{
+		}
+		#div-listview-properti div p{
+			margin:0;
+			padding:0;
+			line-height:normal;
+		}
+		#div-listview-properti .title-listprop p {
+			font-size:12px;
+			font-weight:bold;
+			color:#3a90ad;
+		}
+		#div-listview-properti .title-listprop p span {
+			font-size:10px;
+			padding:2px 2px;
+			margin:0px 3px 0px 0px;
+			border-radius: 2px;
+			text-shadow:none;
+			color:#fff;
+			background:#3a90ad;	
+		}
+		#div-listview-properti .desc-listprop{
+			margin-top:3px;
+		}
+		#div-listview-properti .desc-listprop ul,			
+		#div-listview-properti .icon-listprop ul{
+			margin:0;
+			padding:0;
+		}
+		#div-listview-properti .icon-listprop ul li {
+			list-style-type: none;
+			float:left;
+			margin:0px 2px;		
+		}
+		#div-listview-properti .desc-listprop ul li {
+			list-style-type: none;
+			margin:0;	
+			padding:0;
+		}
+		#div-listview-properti .icon-listprop ul li span{
+			font-size: 10px;
+		}
+		#div-listview-properti .desc-listprop ul li p{
+			font-size: 10px;
+			color:#999;
+		}
+		#div-listview-properti .prize-listprop p {
+			font-size:10px;
+			font-weight:bold;
+			color:#ffa200;			
+		}
+		#div-listview-properti .name-listagent p {
+			font-size:12px;
+			font-weight:bold;
+			color:#3a90ad;		
+		}
+		#div-listview-properti .comp-listagent p {
+			font-size:12px;
+			font-weight:bold;
+			color:#555;
+			margin-top:5px;
+		}
+		#div-listview-properti .area-listagent p {
+			font-size:11px;
+			color:#999;	
+		}
+		#detail-properti .ui-content,
+		#detail-agent .ui-content {
+			padding-left:0;
+			padding-right:0;
+			text-shadow:none;
+			color:#666;
+		}		
+		#detail-properti .ui-content .div-descprop,
+		#detail-agent .ui-content .div-descprop {
+			padding-left: 10px;
+			padding-right: 10px;
+			margin-bottom:10px;
+		}	
+		#detail-properti .ui-content .label-detailprop,
+		#detail-agent .ui-content .label-detailprop {
+			font-size: 13px;
+			font-weight: bold;			
+			text-shadow: none;
+			width:100%;
+			color:#555;
+			background:#ddd;
+			line-height: normal;
+			padding:0px 10px 0px 10px;	
+			margin-bottom: -5px;		
+		}
+		#detail-properti--tabs,
+		#gallery-properti--tabs,
+		#map-properti--tabs{
+			margin: -40px 0px 0px 0px;
+		}
+		#detail-properti--tabs{			
+			padding:0;
+			font-family: calibri;
+		}
+		#detail-properti--tabs .div-descprop .p--titledetailprop{
+			font-size: 18px;
+			font-weight: bold;
+			line-height: normal;
+			margin:0;
+			color:#008fc0;
+			text-shadow:none;
+		}
+		#detail-properti--tabs .div-descprop .p--alamatdetailprop{
+			font-size: 12px;
+			font-weight: normal;
+			margin:0 0 10px 0;
+			line-height: normal;
+		}
+		#detail-properti--tabs .div-descprop center .p--hargadetailprop {
+			font-size: 16px;
+			font-weight: bold;
+			margin:0;
+			line-height: normal;
+			color:#fff;
+			background: #ffa200;
+			border-radius:4px;	
+			padding:2px 4px;
+			text-shadow:none;
+		}
+		#detail-properti--tabs .div-descprop div .p--listdetailprop, 
+		#detail-properti--tabs .div-descprop div .p--isilistdetailprop,
+		#detail-properti--tabs .div-descprop p{
+			font-size: 12px;
+			margin:2px 0px;
+			padding:0;
+		}
+		#detail-properti--tabs .div-descprop div .p--listdetailprop {
+			text-align: right;
+			padding-right:5px;
+			font-weight: bold;
+		}
+		#gallery-properti--tabs {
+
+		}
+		#map-properti--tabs {
+
+		}
+		#navbar--detailprop ul li a{
+			font-size: 12px;
+			font-family: calibri;
+		}
+
+		/** Gallery **/
+
+		div.gallery-row:after { 
+			clear: both; 
+			content: "."; 
+			display: block; 
+			height: auto; 
+			visibility: hidden; 
+		}
+		div.gallery-item { 
+			float: left; 
+			width: 33.333333%; 
+		}
+		div.gallery-item a { 
+			display: block; 
+			margin: 5px; 
+			border: 1px 
+			solid #3c3c3c; 
+		}
+		div.gallery-item img { 
+			display: block; 
+			width: 100%; 
+			height: auto; 
+		}
+		#Gallery1 .ui-content, #Gallery2 .ui-content { 
+			overflow: hidden; 
+		}
+		

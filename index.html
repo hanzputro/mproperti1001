@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Properti1001 - Properti Terlengkap Di Indonesia</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.2.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/swipebox.css">
+
+	<!-- JS -->
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile-1.4.2.min.js"></script>
+	<script src="js/jquery.swipebox.js"></script>
+
+	<script type="text/javascript">
+		;( function( $ ) {
+			$( '.swipebox' ).swipebox();
+		} )( jQuery );
+	</script>
+</head>
+<body>
+
+<!-- page: #home -->
+<div data-role="page" id="demo-page">
+    <div class="header" data-role="header">
+        <center><img src="img/logo-properti1001.png" style="max-width:100%;"></center>
+        <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">Menu</a>
+    </div><!-- /header -->
+    <div role="main" class="ui-content">
+    	<div class="ui-grid-b">
+		    <div class="ui-block-a" id="grid">
+		    	<a href="#pencarian-properti" class="">
+			    	<div class="ui-bar ui-bar-a" style="">		    		
+			    		<center><img src="img/cari-properti.png" style="max-width:100%;"></center><p>Pencarian Properti</p>		    		
+			    	</div>
+		    	</a>
+		    </div>
+		    <div class="ui-block-b" id="grid">
+		    	<a href="#pencarian-agent" class="">
+			    	<div class="ui-bar ui-bar-a" style="">		    		
+			    		<center><img src="img/cari-agent.png" style="max-width:100%;"></center><p>Pencarian Agent</p>	    		
+			    	</div>
+		    	</a>
+		    </div>		    
+		     <div class="ui-block-c" id="grid">
+		    	<a href="#peringatan-properti" class="">
+			    	<div class="ui-bar ui-bar-a" style="">		    		
+			    		<center><img src="img/alert-properti.png" style="max-width:100%;"></center><p>Peringatan Properti</p>	    		
+			    	</div>
+		    	</a>
+		    </div>
+		</div><!-- /grid-b 3 column-->
+		<div class="ui-grid-b">			
+		     <div class="ui-block-a" id="grid">
+		    	<a href="#list-berita" class="">
+			    	<div class="ui-bar ui-bar-a" style="">		    		
+			    		<center><img src="img/berita.png" style="max-width:100%;"></center><p>Berita Properti</p>	    		
+			    	</div>
+		    	</a>
+		    </div>		    
+		     <div class="ui-block-b" id="grid">
+		    	<a href="# kontak" class="">
+			    	<div class="ui-bar ui-bar-a" style="">		    		
+			    		<center><img src="img/kontak.png" style="max-width:100%;"></center><p>Kontak</p>    		
+			    	</div>
+		    	</a>
+		    </div>
+		     <div class="ui-block-c" id="grid">
+		    	<a href="#two" class="">
+			    	<div class="ui-bar ui-bar-a" style="">		    		
+			    		<!--<center><img src="img/logo-properti1001.png" style="max-width:100%;"></center><p>Term</p>-->    		
+			    	</div>
+		    	</a>
+		    </div>
+		</div><!-- /grid-b 3 column-->
+    </div><!-- /content -->
+    <div data-role="panel" id="left-panel">
+        <ul data-role="listview">
+        	<div class="header" data-role="header">
+			    <center><img src="img/logo-properti1001.png" style="max-width:100%;"></center>
+			</div><!-- /header -->
+        	<li data-role="list-divider">
+        		<form>
+	        		<label for="text-6" class="text-login">Login</label>
+	        		<input data-mini="true" type="text" name="text-6" id="text-6" value="" placeholder="Username">
+	        		<input data-mini="true" type="text" name="text-6" id="text-6" value="" placeholder="Password">
+	        		<input data-mini="true" type="checkbox" name="checkbox-mini-0" id="checkbox-mini-0" data-mini="true">
+    				<label for="checkbox-mini-0" class="caption-checkbox">Ingatkan Saya</label>
+    				<input data-mini="true" type="button" data-icon="power" data-theme="b" data-iconpos="right" value="Masuk">
+	        	</form>
+        	</li>
+        	<li data-icon="video"><a href="#demo-intro" class="a-daftar" data-rel="back">Daftar dan Iklankan Propertimu!</a></li>
+        </ul>
+    </div><!-- /panel -->
+</div><!-- /page -->
+
+
+
+
+<!-- page: #pencarian-properti -->
+<div data-role="page" id="pencarian-properti" data-theme="a">
+	<div class="header" data-role="header">
+        <center><img src="img/logo-properti1001.png" style="max-width:100%;"></center>
+        <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">Menu</a>
+    </div><!-- /header -->
+	<div role="main" class="ui-content">
+		<div data-role="tabs">
+		    <div data-role="navbar" id="navbar--cariprop">
+		        <ul>
+		          <li><a href="#jual-properti" data-theme="a" data-ajax="false" class="ui-btn-active ui-state-persist">JUAL</a></li>
+		          <li><a href="#sewa-properti" data-theme="a" data-ajax="false">SEWA</a></li>
+		        </ul>
+		    </div>
+		    <div id="jual-properti" class="ui-content">
+		    	<form>
+			    	<input data-mini="true" type="search" name="password" id="search" value="" placeholder="Cari Kota, Jalan, atau Nama Properti...">
+			    	<select data-mini="true" name="select-native-fc" id="select-native-fc">
+				        <option value="small">Semua Provinsi</option>
+				        <option value="medium">Two</option>
+				        <option value="large">Three</option>
+				    </select>
+				    <select data-mini="true" name="select-native-fc" id="select-native-fc">
+				        <option value="small">Kota</option>
+				        <option value="medium">Two</option>
+				        <option value="large">Three</option>
+				    </select>
+				    <select data-mini="true" name="select-native-fc" id="select-native-fc">
+				        <option value="small">Tipe Properti</option>
+				        <option value="medium">Two</option>
+				        <option value="large">Three</option>
+				    </select>
+				    <select data-mini="true" name="select-native-fc" id="select-native-fc">
+				        <option value="small">Sertifikat</option>
+				        <option value="medium">Two</option>
+				        <option value="large">Three</option>
+				    </select>
+				    <div class="ui-grid-a">
+			    		<div class="ui-block-a" id="grid">
+			    			<select data-mini="true" name="select-native-fc" id="select-native-fc">
+						        <option value="small">Luas Min</option>
+						        <option value="medium">Two</option>
+						        <option value="large">Three</option>
+						    </select>
+			    		</div>
+			    		<div class="ui-block-b" id="grid">
+			    			<select data-mini="true" name="select-native-fc" id="select-native-fc">
+						        <option value="small">Luas Maks</option>
+						        <option value="medium">Two</option>
+						        <option value="large">Three</option>
+						    </select>
+			    		</div>
+			    	</div>
+			    	<div class="ui-grid-a">
+			    		<div class="ui-block-a" id="grid">
+			    			<select data-mini="true" name="select-native-fc" id="select-native-fc">
+						        <option value="small">Harga Min</option>
+						        <option value="medium">Two</option>
+						        <option value="large">Three</option>
+						    </select>
+			    		</div>
+			    		<div class="ui-block-b" id="grid">
+			    			<select data-mini="true" name="select-native-fc" id="select-native-fc">
+						        <option value="small">Harga Maks</option>
+						        <option value="medium">Two</option>
+						        <option value="large">Three</option>
+						    </select>
+			    		</div>
+			    	</div>
+					<a href="#list-properti"><input data-mini="true" type="button" data-icon="search" data-theme="b" data-iconpos="right" value="Cari Properti"></a>
+				</form>
+		    </div>
+
+		    <div id="sewa-properti" class="ui-content">
+		        <form>
+			    	<input data-mini="true" type="search" name="password" id="search" value="" placeholder="Cari Kota, Jalan, atau Nama Properti...">
+			    	<select data-mini="true" name="select-native-fc" id="select-native-fc">
+				        <option value="small">Semua Provinsi</option>
+				        <option value="medium">Two</option>
+				        <option value="large">Three</option>
+				    </select>
+				    <select data-mini="true" name="select-native-fc" id="select-native-fc">
+				        <option value="small">Kota</option>
+				        <option value="medium">Two</option>
+				        <option value="large">Three</option>
+				    </select>
+				    <select data-mini="true" name="select-native-fc" id="select-native-fc">
+				        <option value="small">Tipe Properti</option>
+				        <option value="medium">Two</option>
+				        <option value="large">Three</option>
+				    </select>
+				    <select data-mini="true" name="select-native-fc" id="select-native-fc">
+				        <option value="small">Sertifikat</option>
+				        <option value="medium">Two</option>
+				        <option value="large">Three</option>
+				    </select>
+				    <div class="ui-grid-a">
+			    		<div class="ui-block-a" id="grid">
+			    			<select data-mini="true" name="select-native-fc" id="select-native-fc">
+						        <option value="small">Luas Min</option>
+						        <option value="medium">Two</option>
+						        <option value="large">Three</option>
+						    </select>
+			    		</div>
+			    		<div class="ui-block-b" id="grid">
+			    			<select data-mini="true" name="select-native-fc" id="select-native-fc">
+						        <option value="small">Luas Maks</option>
+						        <option value="medium">Two</option>
+						        <option value="large">Three</option>
+						    </select>
+			    		</div>
+			    	</div>
+			    	<div class="ui-grid-a">
+			    		<div class="ui-block-a" id="grid">
+			    			<select data-mini="true" name="select-native-fc" id="select-native-fc">
+						        <option value="small">Harga Min</option>
+						        <option value="medium">Two</option>
+						        <option value="large">Three</option>
+						    </select>
+			    		</div>
+			    		<div class="ui-block-b" id="grid">
+			    			<select data-mini="true" name="select-native-fc" id="select-native-fc">
+						        <option value="small">Harga Maks</option>
+						        <option value="medium">Two</option>
+						        <option value="large">Three</option>
+						    </select>
+			    		</div>
+			    	</div>
+					<input data-mini="true" type="button" data-icon="search" data-theme="b" data-iconpos="right" value="Cari Properti">
+				</form>
+		    </div>
+		</div>
+	</div><!-- /content -->
+	<div data-role="panel" id="left-panel">
+        <ul data-role="listview">
+        	<div class="header" data-role="header">
+			    <center><img src="img/logo-properti1001.png" style="max-width:100%;"></center>
+			</div><!-- /header -->
+        	<li data-role="list-divider">
+        		<form>
+	        		<label for="text-6" class="text-login">Login</label>
+	        		<input data-mini="true" type="text" name="text-6" id="text-6" value="" placeholder="Username">
+	        		<input data-mini="true" type="text" name="text-6" id="text-6" value="" placeholder="Password">
+	        		<input data-mini="true" type="checkbox" name="checkbox-mini-0" id="checkbox-mini-0" data-mini="true">
+    				<label for="checkbox-mini-0" class="caption-checkbox">Ingatkan Saya</label>
+    				<input data-mini="true" type="button" data-icon="power" data-theme="b" data-iconpos="right" value="Masuk">
+	        	</form>
+        	</li>
+        	<li data-icon="video"><a href="#demo-intro" class="a-daftar" data-rel="back">Daftar dan Iklankan Propertimu!</a></li>
+        </ul>
+    </div><!-- /panel -->
+</div><!-- /#pencarian-properti -->
+
+
+
+<!-- page: #pencarian-agent -->
+<div data-role="page" id="pencarian-agent" data-theme="a">
+	<div class="header" data-role="header">
+        <center><img src="img/logo-properti1001.png" style="max-width:100%;"></center>
+        <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">Menu</a>
+    </div><!-- /header -->
+	<div role="main" class="ui-content">
+		<select data-mini="true" name="select-native-fc" id="select-native-fc">
+			<option value="small">Semua Provinsi</option>
+			<option value="medium">Two</option>
+			<option value="large">Three</option>
+		</select>
+		<select data-mini="true" name="select-native-fc" id="select-native-fc">
+			<option value="small">Kota</option>
+			<option value="medium">Two</option>
+			<option value="large">Three</option>
+		</select>
+		<select data-mini="true" name="select-native-fc" id="select-native-fc">
+			<option value="small">Tipe Properti</option>
+			<option value="medium">Two</option>
+			<option value="large">Three</option>
+		</select>
+		<a href="#list-agent"><input data-mini="true" type="button" data-icon="search" data-theme="b" data-iconpos="right" value="Cari Agent"></a>
+	</div><!-- /content -->
+	<div data-role="panel" id="left-panel">
+        <ul data-role="listview">
+        	<div class="header" data-role="header">
+			    <center><img src="img/logo-properti1001.png" style="max-width:100%;"></center>
+			</div><!-- /header -->
+        	<li data-role="list-divider">
+        		<form>
+	        		<label for="text-6" class="text-login">Login</label>
+	        		<input data-mini="true" type="text" name="text-6" id="text-6" value="" placeholder="Username">
+	        		<input data-mini="true" type="text" name="text-6" id="text-6" value="" placeholder="Password">
+	        		<input data-mini="true" type="checkbox" name="checkbox-mini-0" id="checkbox-mini-0" data-mini="true">
+    				<label for="checkbox-mini-0" class="caption-checkbox">Ingatkan Saya</label>
+    				<input data-mini="true" type="button" data-icon="power" data-theme="b" data-iconpos="right" value="Masuk">
+	        	</form>
+        	</li>
+        	<li data-icon="video"><a href="#demo-intro" class="a-daftar" data-rel="back">Daftar dan Iklankan Propertimu!</a></li>
+        </ul>
+    </div><!-- /panel -->
+</div><!-- /#pencarian-agent -->
+
+
+
+<!-- page: #peringatan-properti -->
+<div data-role="page" id="peringatan-properti" data-theme="a">
+	<div class="header" data-role="header">
+        <center><img src="img/logo-properti1001.png" style="max-width:100%;"></center>
+        <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">Menu</a>
+    </div><!-- /header -->
+	<div role="main" class="ui-content">
+		<div class="ui-grid-a">
+			<div class="ui-block-a" id="grid">
+			    <label>
+			        <input data-mini="true" type="radio" name="radio-choice-0" id="radio-choice-0a">Beli
+			    </label>
+			</div>
+			<div class="ui-block-b" id="grid">
+			    <label>
+			        <input data-mini="true" type="radio" name="radio-choice-0" id="radio-choice-0b">Sewa
+			    </label>
+			</div>
+		</div>
+		<select data-mini="true" name="select-native-fc" id="select-native-fc">
+			<option value="small">Semua Provinsi</option>
+			<option value="medium">Two</option>
+			<option value="large">Three</option>
+		</select>
+		<select data-mini="true" name="select-native-fc" id="select-native-fc">
+			<option value="small">Kota</option>
+			<option value="medium">Two</option>
+			<option value="large">Three</option>
+		</select>
+		<select data-mini="true" name="select-native-fc" id="select-native-fc">
+			<option value="small">Tipe Properti</option>
+			<option value="medium">Two</option>
+			<option value="large">Three</option>
+		</select>
+		<select data-mini="true" name="select-native-fc" id="select-native-fc">
+			<option value="small">Sertifikat</option>
+			<option value="medium">Two</option>
+			<option value="large">Three</option>
+		</select>
+		<div class="ui-grid-a">
+			<div class="ui-block-a" id="grid">
+			    <select data-mini="true" name="select-native-fc" id="select-native-fc">
+					<option value="small">Luas Min</option>
+					<option value="medium">Two</option>
+					<option value="large">Three</option>
+				</select>
+			</div>
+			<div class="ui-block-b" id="grid">
+			    <select data-mini="true" name="select-native-fc" id="select-native-fc">
+					<option value="small">Luas Maks</option>
+					<option value="medium">Two</option>
+					<option value="large">Three</option>
+				</select>
+			</div>
+		</div>
+		<div class="ui-grid-a">
+			<div class="ui-block-a" id="grid">
+			    <select data-mini="true" name="select-native-fc" id="select-native-fc">
+					<option value="small">Harga Min</option>
+					<option value="medium">Two</option>
+					<option value="large">Three</option>
+				</select>
+			</div>
+			<div class="ui-block-b" id="grid">
+			    <select data-mini="true" name="select-native-fc" id="select-native-fc">
+					<option value="small">Harga Maks</option>
+					<option value="medium">Two</option>
+					<option value="large">Three</option>
+				</select>
+			</div>
+		</div>
+		<input data-mini="true" type="text" name="text-6" id="text-6" value="" placeholder="Nama">
+		<input data-mini="true" type="text" name="text-6" id="text-6" value="" placeholder="Email">
+		<input data-mini="true" type="text" name="text-6" id="text-6" value="" placeholder="No Handphone">
+		<input data-mini="true" type="button" data-icon="search" data-theme="b" data-iconpos="right" value="Simpan Peringatan">
+	</div><!-- /content -->
+	<div data-role="panel" id="left-panel">
+        <ul data-role="listview">
+        	<div class="header" data-role="header">
+			    <center><img src="img/logo-properti1001.png" style="max-width:100%;"></center>
+			</div><!-- /header -->
+        	<li data-role="list-divider">
+        		<form>
+	        		<label for="text-6" class="text-login">Login</label>
+	        		<input data-mini="true" type="text" name="text-6" id="text-6" value="" placeholder="Username">
+	        		<input data-mini="true" type="text" name="text-6" id="text-6" value="" placeholder="Password">
+	        		<input data-mini="true" type="checkbox" name="checkbox-mini-0" id="checkbox-mini-0" data-mini="true">
+    				<label for="checkbox-mini-0" class="caption-checkbox">Ingatkan Saya</label>
+    				<input data-mini="true" type="button" data-icon="power" data-theme="b" data-iconpos="right" value="Masuk">
+	        	</form>
+        	</li>
+        	<li data-icon="video"><a href="#demo-intro" class="a-daftar" data-rel="back">Daftar dan Iklankan Propertimu!</a></li>
+        </ul>
+    </div><!-- /panel -->
+</div><!-- /#peringatan-properti -->
+
+
+
+<!-- page: #list-berita -->
+<div data-role="page" id="list-berita" data-theme="a">
+	<div class="header" data-role="header">
+        <center><img src="img/logo-properti1001.png" style="max-width:100%;"></center>
+        <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">Menu</a>
+    </div><!-- /header -->
+	<div role="main" class="ui-content">		
+		<ul data-role="listview">
+		    <li>
+		    	<a href="#">
+			        <img src="img/photo-1.jpg">
+				    <h5>Broken Bells</h5>
+				    <p>Broken Bells</p>
+				</a>
+		    </li>
+		    <li>
+		    	<a href="#">
+			        <img src="img/photo-2.jpg">
+				    <h5>Broken Bells</h5>
+				    <p>Hot Chip</p>
+				</a>
+		    </li>
+		    <li>
+		    	<a href="#">
+			        <img src="img/photo-3.jpg">
+				    <h5>Broken Bells</h5>
+				    <p>Phoenix</p>
+				</a>
+		    </li>
+		</ul>
+	</div><!-- /content -->
+	<div data-role="panel" id="left-panel">
+        <ul data-role="listview">
+        	<div class="header" data-role="header">
+			    <center><img src="img/logo-properti1001.png" style="max-width:100%;"></center>
+			</div><!-- /header -->
+        	<li data-role="list-divider">        		
+        		<form>
+	        		<label for="text-6" class="text-login">Login</label>
+	        		<input data-mini="true" type="text" name="text-6" id="text-6" value="" placeholder="Username">
+	        		<input data-mini="true" type="text" name="text-6" id="text-6" value="" placeholder="Password">
+	        		<input data-mini="true" type="checkbox" name="checkbox-mini-0" id="checkbox-mini-0" data-mini="true">
+    				<label for="checkbox-mini-0" class="caption-checkbox">Ingatkan Saya</label>
+    				<input data-mini="true" type="button" data-icon="power" data-theme="b" data-iconpos="right" value="Masuk">
+	        	</form>
+        	</li>
+        	<li data-icon="video"><a href="#demo-intro" class="a-daftar" data-rel="back">Daftar dan Iklankan Propertimu!</a></li>
+        </ul>
+    </div><!-- /panel -->
+</div><!-- /#list-berita -->
+
+
+
+<!-- page: #list-properti -->
+<div data-role="page" id="list-properti" data-theme="a">
+	<div class="header" data-role="header">
+        <center><img src="img/logo-properti1001.png" style="max-width:100%;"></center>
+        <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">Menu</a>
+    </div><!-- /header -->
+	<div role="main" class="ui-content">
+		<ul data-role="listview">
+		    <li data-icon="false"><!--listing properti -->
+		    	<a href="#detail-properti" id="div-listview-properti">
+		    		<img src="img/photo-1.jpg">
+		    		<span class="premium-mark">PREMIUM</span>
+		    		<div class="title-listprop">				    
+						<p><span>JUAL</span>Rumah daerah bekasi, kaliabang tengah</p>
+					</div>
+					<div class="desc-listprop">
+						<ul>
+							<li><p>Id Listing : 234245</p></li>
+							<li><p>Tipe Listing : Rumah</p></li>
+							<li><p>Luas Tanah : 100m&sup2;</p></li>
+						</ul>
+					</div>
+					<div class="icon-listprop">
+						<ul>
+							<li><span class="">1</span><img src="img/icon-rumah.png"></li>
+							<li><span class="">2</span><img src="img/icon-rumah.png"></li>
+							<li><span class="">3</span><img src="img/icon-rumah.png"></li>
+							<li><span class="">1</span><img src="img/icon-rumah.png"></li>
+							<li><span class="">2</span><img src="img/icon-rumah.png"></li>
+						</ul>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="prize-listprop">
+						<p>Rp 7.759.000.000</p>
+					</div>					
+				</a>
+		    </li><!-- /listing properti -->
+		    <li data-icon="false"><!--listing properti -->
+		    	<a href="#detail-properti" id="div-listview-properti">
+		    		<img src="img/photo-1.jpg">
+		    		<span class="premium-mark">PREMIUM</span>
+		    		<div class="title-listprop">				    
+						<p><span>JUAL</span>Rumah daerah bekasi, kaliabang tengah</p>
+					</div>
+					<div class="desc-listprop">
+						<ul>
+							<li><p>Id Listing : 234245</p></li>
+							<li><p>Tipe Listing : Rumah</p></li>
+							<li><p>Luas Tanah : 100m&sup2;</p></li>
+						</ul>
+					</div>
+					<div class="icon-listprop">
+						<ul>
+							<li><span class="">1</span><img src="img/icon-rumah.png"></li>
+							<li><span class="">2</span><img src="img/icon-rumah.png"></li>
+							<li><span class="">3</span><img src="img/icon-rumah.png"></li>
+							<li><span class="">1</span><img src="img/icon-rumah.png"></li>
+							<li><span class="">2</span><img src="img/icon-rumah.png"></li>
+						</ul>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="prize-listprop">
+						<p>Rp 7.759.000.000</p>
+					</div>					
+				</a>
+		    </li><!-- /listing properti -->
+		    <li data-icon="false"><!--listing properti -->
+		    	<a href="#detail-properti" id="div-listview-properti">
+		    		<img src="img/photo-1.jpg">
+		    		<span class="premium-mark">PREMIUM</span>
+		    		<div class="title-listprop">				    
+						<p><span>JUAL</span>Rumah daerah bekasi, kaliabang tengah</p>
+					</div>
+					<div class="desc-listprop">
+						<ul>
+							<li><p>Id Listing : 234245</p></li>
+							<li><p>Tipe Listing : Rumah</p></li>
+							<li><p>Luas Tanah : 100m&sup2;</p></li>
+						</ul>
+					</div>
+					<div class="icon-listprop">
+						<ul>
+							<li><span class="">1</span><img src="img/icon-rumah.png"></li>
+							<li><span class="">2</span><img src="img/icon-rumah.png"></li>
+							<li><span class="">3</span><img src="img/icon-rumah.png"></li>
+							<li><span class="">1</span><img src="img/icon-rumah.png"></li>
+							<li><span class="">2</span><img src="img/icon-rumah.png"></li>
+						</ul>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="prize-listprop">
+						<p>Rp 7.759.000.000</p>
+					</div>					
+				</a>
+		    </li><!-- /listing properti -->
+		    <li data-icon="false"><!--listing properti -->
+		    	<a href="#detail-properti" id="div-listview-properti">
+		    		<img src="img/photo-1.jpg">
+		    		<span class="premium-mark">PREMIUM</span>
+		    		<div class="title-listprop">				    
+						<p><span>JUAL</span>Rumah daerah bekasi, kaliabang tengah</p>
+					</div>
+					<div class="desc-listprop">
+						<ul>
+							<li><p>Id Listing : 234245</p></li>
+							<li><p>Tipe Listing : Rumah</p></li>
+							<li><p>Luas Tanah : 100m&sup2;</p></li>
+						</ul>
+					</div>
+					<div class="icon-listprop">
+						<ul>
+							<li><span class="">1</span><img src="img/icon-rumah.png"></li>
+							<li><span class="">2</span><img src="img/icon-rumah.png"></li>
+							<li><span class="">3</span><img src="img/icon-rumah.png"></li>
+							<li><span class="">1</span><img src="img/icon-rumah.png"></li>
+							<li><span class="">2</span><img src="img/icon-rumah.png"></li>
+						</ul>
+					</div>
+					<div style="clear:both;"></div>
+					<div class="prize-listprop">
+						<p>Rp 7.759.000.000</p>
+					</div>					
+				</a>
+		    </li><!-- /listing properti -->
+		</ul>
+	</div><!-- /content -->
+	<div data-role="panel" id="left-panel">
+        <ul data-role="listview">
+        	<div class="header" data-role="header">
+			    <center><img src="img/logo-properti1001.png" style="max-width:100%;"></center>
+			</div><!-- /header -->
+        	<li data-role="list-divider">        		
+        		<form>
+	        		<label for="text-6" class="text-login">Login</label>
+	        		<input data-mini="true" type="text" name="text-6" id="text-6" value="" placeholder="Username">
+	        		<input data-mini="true" type="text" name="text-6" id="text-6" value="" placeholder="Password">
+	        		<input data-mini="true" type="checkbox" name="checkbox-mini-0" id="checkbox-mini-0" data-mini="true">
+    				<label for="checkbox-mini-0" class="caption-checkbox">Ingatkan Saya</label>
+    				<input data-mini="true" type="button" data-icon="power" data-theme="b" data-iconpos="right" value="Masuk">
+	        	</form>
+        	</li>
+        	<li data-icon="video"><a href="#demo-intro" class="a-daftar" data-rel="back">Daftar dan Iklankan Propertimu!</a></li>
+        </ul>
+    </div><!-- /panel -->
+</div><!-- /#list-properti -->
+
+
+
+<!-- page: #list-agent -->
+<div data-role="page" id="list-agent" data-theme="a">
+	<div class="header" data-role="header">
+        <center><img src="img/logo-properti1001.png" style="max-width:100%;"></center>
+        <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">Menu</a>
+    </div><!-- /header -->
+	<div role="main" class="ui-content">
+		<ul data-role="listview">
+		    <li data-icon="false"><!--listing agent -->
+		    	<a href="#detail-agent" id="div-listview-properti">
+		    		<img src="img/no-img.png">
+		    		<div class="name-listagent">				    
+						<p>Hanzputro</p>
+					</div>
+					<div class="comp-listagent">
+						<p>Independent Agent Property</p>
+					</div>
+					<div class="area-listagent">
+						<p>Area : Jakarta</p>
+					</div>				
+				</a>
+		    </li><!-- /agent -->
+		    <li data-icon="false"><!--listing agent -->
+		    	<a href="#detail-agent" id="div-listview-properti">
+		    		<img src="img/no-img.png">
+		    		<div class="name-listagent">				    
+						<p>Situmorang Sitohang</p>
+					</div>
+					<div class="comp-listagent">
+						<p>Joki Property</p>
+					</div>
+					<div class="area-listagent">
+						<p>Area : Sumatra</p>
+					</div>				
+				</a>
+		    </li><!-- /agent -->
+		    <li data-icon="false"><!--listing agent -->
+		    	<a href="#detail-agent" id="div-listview-properti">
+		    		<img src="img/no-img.png">
+		    		<div class="name-listagent">				    
+						<p>Sujiwotejo</p>
+					</div>
+					<div class="comp-listagent">
+						<p>Prepet Property</p>
+					</div>
+					<div class="area-listagent">
+						<p>Area : Bekasi, Tangerang</p>
+					</div>				
+				</a>
+		    </li><!-- /agent -->
+		</ul>
+	</div><!-- /content -->
+	<div data-role="panel" id="left-panel">
+        <ul data-role="listview">
+        	<div class="header" data-role="header">
+			    <center><img src="img/logo-properti1001.png" style="max-width:100%;"></center>
+			</div><!-- /header -->
+        	<li data-role="list-divider">        		
+        		<form>
+	        		<label for="text-6" class="text-login">Login</label>
+	        		<input data-mini="true" type="text" name="text-6" id="text-6" value="" placeholder="Username">
+	        		<input data-mini="true" type="text" name="text-6" id="text-6" value="" placeholder="Password">
+	        		<input data-mini="true" type="checkbox" name="checkbox-mini-0" id="checkbox-mini-0" data-mini="true">
+    				<label for="checkbox-mini-0" class="caption-checkbox">Ingatkan Saya</label>
+    				<input data-mini="true" type="button" data-icon="power" data-theme="b" data-iconpos="right" value="Masuk">
+	        	</form>
+        	</li>
+        	<li data-icon="video"><a href="#demo-intro" class="a-daftar" data-rel="back">Daftar dan Iklankan Propertimu!</a></li>
+        </ul>
+    </div><!-- /panel -->
+</div><!-- /#list-agent -->
+
+
+
+<!-- page: #detail-properti -->
+<div data-role="page" id="detail-properti" data-theme="a">
+	<div class="header" data-role="header">
+        <center><img src="img/logo-properti1001.png" style="max-width:100%;"></center>
+        <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">Menu</a>
+    </div><!-- /header -->
+	<div role="main" class="ui-content">
+		<div data-role="tabs" id="detailprop--tabs">
+		    <div data-role="navbar" data-iconpos="left" id="navbar--detailprop">
+		        <ul>
+		          <li><a href="#detail-properti--tabs" data-theme="a" data-icon="eye" data-ajax="false" class="ui-btn-active ui-state-persist">Info Properti</a></li>
+		          <li><a href="#gallery-properti--tabs" data-theme="a" data-icon="camera" data-ajax="false">Gallery</a></li>
+		          <li><a href="#map-properti--tabs" data-theme="a" data-icon="location" data-ajax="false">Map</a></li>
+		        </ul>
+		    </div>
+		    <div id="detail-properti--tabs" class="ui-content">
+
+				<div class="div-descprop">
+					<p class="p--titledetailprop">Dijual Cepat! Rumah Daerah Kebon Jeruk</p>
+					<p class="p--alamatdetailprop">Bukit Tinggi, Jakarta Utara </p>
+					<center><span class="p--hargadetailprop">Rp. 5.000.000.000.000</span></center>
+				</div>
+				<div class="ui-grid-a div-descprop">
+					<div class="ui-block-a" id="grid">
+					    <p class="p--listdetailprop">ID Listing :</p>
+					    <p class="p--listdetailprop">Tipe Properti :</p>
+					    <p class="p--listdetailprop">Luas Tanah :</p>
+					    <p class="p--listdetailprop">Ukuran :</p>
+					    <p class="p--listdetailprop">Sertifikat :</p>
+					    <p class="p--listdetailprop">Kondisi Perabotan :</p>
+					</div>
+					<div class="ui-block-b" id="grid">
+					    <p class="p--isilistdetailprop">08756478ACD</p>
+					    <p class="p--isilistdetailprop">Rumah</p>
+					    <p class="p--isilistdetailprop">800.00 m&sup2;</p>
+					    <p class="p--isilistdetailprop">20 x 40 m&sup2;</p>
+					    <p class="p--isilistdetailprop">Hak Milik</p>
+					    <p class="p--isilistdetailprop">Terisi</p>
+					</div>
+				</div>
+				<div class="label-detailprop"><p>Deskripsi</p></div>
+				<div class="div-descprop">
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis</p>
+				</div>
+				<div class="label-detailprop"><p>Komentar Ahli</p></div>
+				<div class="div-descprop">
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis</p>
+				</div>
+				<div class="label-detailprop"><p>Fasilitas Unit</p></div>
+				<div class="div-descprop">
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis</p>
+				</div>
+		    
+		    </div>
+		    <div id="gallery-properti--tabs" class="ui-content">
+
+		    	<div id="Gallery">	
+					<div class="gallery-row">
+						<div class="gallery-item">
+							<a href="img/photo-1.jpg" class="swipebox"><img src="img/photo-1.jpg" alt="Image 001" /></a>
+						</div>
+						<div class="gallery-item">
+							<a href="img/photo-2.jpg" class="swipebox"><img src="img/photo-2.jpg" alt="Image 001" /></a>
+						</div>
+						<div class="gallery-item">
+							<a href="img/photo-3.jpg" class="swipebox"><img src="img/photo-3.jpg" alt="Image 001" /></a>
+						</div>
+						<div class="gallery-item">
+							<a href="img/photo-1.jpg" class="swipebox"><img src="img/photo-1.jpg" alt="Image 001" /></a>
+						</div>
+						<div class="gallery-item">
+							<a href="img/photo-2.jpg" class="swipebox"><img src="img/photo-2.jpg" alt="Image 001" /></a>
+						</div>
+						<div class="gallery-item">
+							<a href="img/photo-3.jpg" class="swipebox"><img src="img/photo-3.jpg" alt="Image 001" /></a>
+						</div>
+					</div>
+				</div>
+
+		    </div>
+		    <div id="map-properti--tabs" class="ui-content">
+		    	
+		    </div>
+		</div>
+	</div><!-- /content -->
+	<div data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top" id="navbar--detailprop">
+            <ul>
+                <li><a href="#" data-icon="heart">Simpan Listing</a></li>
+                <li><a href="#" data-icon="phone">Telp Agent</a></li>
+                <li><a href="#" data-icon="mail">Email Agent</a></li>
+                <li><a href="#" data-icon="cloud">Share</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+	<div data-role="panel" id="left-panel">
+        <ul data-role="listview">
+        	<div class="header" data-role="header">
+			    <center><img src="img/logo-properti1001.png" style="max-width:100%;"></center>
+			</div><!-- /header -->
+        	<li data-role="list-divider">        		
+        		<form>
+	        		<label for="text-6" class="text-login">Login</label>
+	        		<input data-mini="true" type="text" name="text-6" id="text-6" value="" placeholder="Username">
+	        		<input data-mini="true" type="text" name="text-6" id="text-6" value="" placeholder="Password">
+	        		<input data-mini="true" type="checkbox" name="checkbox-mini-0" id="checkbox-mini-0" data-mini="true">
+    				<label for="checkbox-mini-0" class="caption-checkbox">Ingatkan Saya</label>
+    				<input data-mini="true" type="button" data-icon="power" data-theme="b" data-iconpos="right" value="Masuk">
+	        	</form>
+        	</li>
+        	<li data-icon="video"><a href="#demo-intro" class="a-daftar" data-rel="back">Daftar dan Iklankan Propertimu!</a></li>
+        </ul>
+    </div><!-- /panel -->
+</div><!-- /#detail-properti -->
+
+
+
+<!-- page: #detail-agent -->
+<div data-role="page" id="detail-agent" data-theme="a">
+	<div class="header" data-role="header">
+        <center><img src="img/logo-properti1001.png" style="max-width:100%;"></center>
+        <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">Menu</a>
+    </div><!-- /header -->
+	<div role="main" class="ui-content">
+		<div data-role="tabs" id="detailprop--tabs">
+		    <div data-role="navbar" data-iconpos="left" id="navbar--detailprop">
+		        <ul>
+		          <li><a href="#detail-properti--tabs" data-theme="a" data-icon="eye" data-ajax="false" class="ui-btn-active ui-state-persist">Info Agent</a></li>
+		          <li><a href="#gallery-properti--tabs" data-theme="a" data-icon="camera" data-ajax="false">Listing Dijual</a></li>
+		          <li><a href="#map-properti--tabs" data-theme="a" data-icon="location" data-ajax="false">Listing Disewa</a></li>
+		        </ul>
+		    </div>
+		    <div id="detail-properti--tabs" class="ui-content">
+
+				<div class="div-descprop">
+					<p class="p--titledetailprop">Dijual Cepat! Rumah Daerah Kebon Jeruk</p>
+					<p class="p--alamatdetailprop">Bukit Tinggi, Jakarta Utara </p>
+					<center><span class="p--hargadetailprop">Rp. 5.000.000.000.000</span></center>
+				</div>
+				<div class="ui-grid-a div-descprop">
+					<div class="ui-block-a" id="grid">
+					    <p class="p--listdetailprop">ID Listing :</p>
+					    <p class="p--listdetailprop">Tipe Properti :</p>
+					    <p class="p--listdetailprop">Luas Tanah :</p>
+					    <p class="p--listdetailprop">Ukuran :</p>
+					    <p class="p--listdetailprop">Sertifikat :</p>
+					    <p class="p--listdetailprop">Kondisi Perabotan :</p>
+					</div>
+					<div class="ui-block-b" id="grid">
+					    <p class="p--isilistdetailprop">08756478ACD</p>
+					    <p class="p--isilistdetailprop">Rumah</p>
+					    <p class="p--isilistdetailprop">800.00 m&sup2;</p>
+					    <p class="p--isilistdetailprop">20 x 40 m&sup2;</p>
+					    <p class="p--isilistdetailprop">Hak Milik</p>
+					    <p class="p--isilistdetailprop">Terisi</p>
+					</div>
+				</div>
+				<div class="label-detailprop"><p>Deskripsi</p></div>
+				<div class="div-descprop">
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis</p>
+				</div>
+				<div class="label-detailprop"><p>Komentar Ahli</p></div>
+				<div class="div-descprop">
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis</p>
+				</div>
+				<div class="label-detailprop"><p>Fasilitas Unit</p></div>
+				<div class="div-descprop">
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis</p>
+				</div>
+		    
+		    </div>
+		    <div id="gallery-properti--tabs" class="ui-content">
+
+		    	<div id="Gallery">	
+					<div class="gallery-row">
+						<div class="gallery-item">
+							<a href="img/photo-1.jpg" class="swipebox"><img src="img/photo-1.jpg" alt="Image 001" /></a>
+						</div>
+						<div class="gallery-item">
+							<a href="img/photo-2.jpg" class="swipebox"><img src="img/photo-2.jpg" alt="Image 001" /></a>
+						</div>
+						<div class="gallery-item">
+							<a href="img/photo-3.jpg" class="swipebox"><img src="img/photo-3.jpg" alt="Image 001" /></a>
+						</div>
+						<div class="gallery-item">
+							<a href="img/photo-1.jpg" class="swipebox"><img src="img/photo-1.jpg" alt="Image 001" /></a>
+						</div>
+						<div class="gallery-item">
+							<a href="img/photo-2.jpg" class="swipebox"><img src="img/photo-2.jpg" alt="Image 001" /></a>
+						</div>
+						<div class="gallery-item">
+							<a href="img/photo-3.jpg" class="swipebox"><img src="img/photo-3.jpg" alt="Image 001" /></a>
+						</div>
+					</div>
+				</div>
+
+		    </div>
+		    <div id="map-properti--tabs" class="ui-content">
+		    	
+		    </div>
+		</div>
+	</div><!-- /content -->
+	<div data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top" id="navbar--detailprop">
+            <ul>
+                <li><a href="#" data-icon="heart">Simpan Listing</a></li>
+                <li><a href="#" data-icon="phone">Telp Agent</a></li>
+                <li><a href="#" data-icon="mail">Email Agent</a></li>
+                <li><a href="#" data-icon="cloud">Share</a></li>
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+	<div data-role="panel" id="left-panel">
+        <ul data-role="listview">
+        	<div class="header" data-role="header">
+			    <center><img src="img/logo-properti1001.png" style="max-width:100%;"></center>
+			</div><!-- /header -->
+        	<li data-role="list-divider">        		
+        		<form>
+	        		<label for="text-6" class="text-login">Login</label>
+	        		<input data-mini="true" type="text" name="text-6" id="text-6" value="" placeholder="Username">
+	        		<input data-mini="true" type="text" name="text-6" id="text-6" value="" placeholder="Password">
+	        		<input data-mini="true" type="checkbox" name="checkbox-mini-0" id="checkbox-mini-0" data-mini="true">
+    				<label for="checkbox-mini-0" class="caption-checkbox">Ingatkan Saya</label>
+    				<input data-mini="true" type="button" data-icon="power" data-theme="b" data-iconpos="right" value="Masuk">
+	        	</form>
+        	</li>
+        	<li data-icon="video"><a href="#demo-intro" class="a-daftar" data-rel="back">Daftar dan Iklankan Propertimu!</a></li>
+        </ul>
+    </div><!-- /panel -->
+</div><!-- /#detail-agent -->
+
+
+
+</body>
+</html>
